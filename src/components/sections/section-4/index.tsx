@@ -1,6 +1,8 @@
 import { Grid, Text } from "@nextui-org/react";
 import CardOne from "../../Cards/CardOne";
 
+import { data, IProjectData } from "../../../data";
+
 const SectionFour = () => {
   return (
     <div id="section-4">
@@ -12,9 +14,9 @@ const SectionFour = () => {
         }}
       >
         <Grid.Container gap={2}>
-          {[0, 1, 2, 3].map(() => (
+          {data.projectData.map((ele: IProjectData) => (
             <Grid xs={12} md={6}>
-              <CardOne />
+              <CardOne {...ele} />
             </Grid>
           ))}
         </Grid.Container>
