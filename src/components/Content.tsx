@@ -1,4 +1,4 @@
-import { Spacer, Text } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/react";
 import { Box } from "./Box";
 import SectionOne from "./sections/section-1";
 import SectionTwo from "./sections/section-2";
@@ -15,7 +15,7 @@ export const Content = () => (
         flexDirection: "column",
       }}
     >
-      <div style={{ width: "70%" }}>
+      <div style={{ width: "80%" }}>
         <Spacer y={1} />
         <SectionOne />
         <Spacer y={1} />

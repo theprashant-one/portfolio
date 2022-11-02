@@ -45,7 +45,7 @@ veniam tempora vel rerum obcaecati assumenda nulla. Excepturi, a?`,
     projectData: [
         {
             name: "Instagram Clone",
-            about: "Clone of Instagram",
+            about: "Clone of Instagram ",
             techStack: "NextJs, React Query, NestJs, Graphql and MongoDB",
             link: "http:www.google.com",
             sourceLink: "https://www.google.com"
