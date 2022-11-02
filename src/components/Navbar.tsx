@@ -30,7 +30,7 @@ export const NavbarComponent = () => {
           },
         }}
       >
-        <Text b color="inherit" weight={"bold"}>
+        <Text b color="inherit" weight={"bold"} size="$2xl">
           P
         </Text>
       </Navbar.Brand>
