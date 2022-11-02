@@ -36,7 +36,11 @@ export default function CardOne({
           objectFit="cover"
           css={{ borderRadius: "10px" }}
         />
-        <Text>{about}</Text>
+        <Spacer />
+        <Text size="$xs">Built using {techStack}</Text>
+        {about.map((ab) => {
+          return <Text weight={"thin"}>- {ab}</Text>;
+        })}
       </Card.Body>
       <Card.Footer>
         <Button

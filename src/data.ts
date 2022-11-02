@@ -1,7 +1,7 @@
 export interface IProjectData {
     name: string;
     techStack: string;
-    about: string;
+    about: string[];
     link: string;
     sourceLink: string;
 }
@@ -45,18 +45,18 @@ veniam tempora vel rerum obcaecati assumenda nulla. Excepturi, a?`,
     projectData: [
         {
             name: "Instagram Clone",
-            about: "Clone of Instagram ",
+            about: ["Clone of Instagram", "Clone of Instagram", " Lorem ipsum, dolor sit amet consectetur adipisicing elit.", "Clone of Instagram", " Lorem ipsum, dolor sit amet consectetur adipisicing elit."],
             techStack: "NextJs, React Query, NestJs, Graphql and MongoDB",
-            link: "http:www.google.com",
+            link: "http://www.google.com",
             sourceLink: "https://www.google.com"
 
         },
 
         {
             name: "Apartments",
-            about: "Booking room app",
-            techStack: "React Native, React Query, GoLang, PostgreSQL",
-            link: "http:www.google.com",
+            about: [" Lorem ipsum, dolor sit amet consectetur adipisicing elit.", "Booking App", "Booking App", "Booking App", " Lorem ipsum, dolor sit amet consectetur adipisicing elit."],
+            techStack: "React Native, React Query, GoLang and PostgreSQL",
+            link: "http://www.google.com",
             sourceLink: "https://www.google.com"
 
         },
