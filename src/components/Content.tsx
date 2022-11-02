@@ -18,13 +18,13 @@ export const Content = () => (
       <div style={{ width: "80%" }}>
         <Spacer y={1} />
         <SectionOne />
-        <Spacer y={1} />
+        <Spacer y={2} />
         <SectionTwo />
-        <Spacer y={1} />
+        <Spacer y={2} />
         <SectionThree />
-        <Spacer y={1} />
+        <Spacer y={2} />
         <SectionFour />
-        <Spacer y={1} />
+        <Spacer y={2} />
         <SectionFive />
       </div>
     </div>
