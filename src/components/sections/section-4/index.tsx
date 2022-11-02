@@ -6,7 +6,7 @@ import { data, IProjectData } from "../../../data";
 const SectionFour = () => {
   return (
     <div id="section-4">
-      <Text>04. Some Things I’ve Built</Text>
+      <Text>03. Some Things I’ve Built</Text>
       <div
         style={{
           display: "flex",

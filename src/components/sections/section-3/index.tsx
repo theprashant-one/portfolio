@@ -10,7 +10,7 @@ import CardOne from "../../Cards/CardOne";
 const SectionThree = () => {
   return (
     <div id="section-3">
-      <Text>03. Where I’ve Worked</Text>
+      <Text>02. Where I’ve Worked</Text>
       <VerticalTimeline>
         {data.experience.map(
           ({ companyName, place, date, desc, position }: IExperienceData) => {
@@ -37,7 +37,9 @@ const SectionThree = () => {
                     <h4 className="vertical-timeline-element-subtitle">
                       {place}
                     </h4>
-                    <p>{desc}</p>
+                    {desc.map((info) => {
+                      return <p>- {info}</p>;
+                    })}
                   </Card.Body>
                 </Card>
               </VerticalTimelineElement>

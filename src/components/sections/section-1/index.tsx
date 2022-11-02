@@ -45,7 +45,11 @@ const SectionOne = () => {
 
       <Text size={30}>{data.lineTwo}</Text>
       <Spacer x={3} />
-      <Button shadow color="secondary">
+      <Button
+        shadow
+        color="secondary"
+        onClick={() => window.open(data.resumeLink)}
+      >
         Resume
       </Button>
       <Spacer x={3} />
@@ -55,14 +59,12 @@ const SectionOne = () => {
         <Button
           auto
           icon={<IoLogoGithub style={{ backgroundColor: "transparent" }} />}
-          onClick={() => window.open("https://github.com/prashantkumar23")}
+          onClick={() => window.open(data.githubLink)}
         />
         <Button
           icon={<IoLogoLinkedin />}
           auto
-          onClick={() =>
-            window.open("https://www.linkedin.com/in/prashantkumar23")
-          }
+          onClick={() => window.open(data.linkdinLink)}
         />
       </div>
     </div>
