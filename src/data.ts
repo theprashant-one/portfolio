@@ -1,9 +1,10 @@
 export interface IProjectData {
-    name: string;
-    techStack: string;
-    about: string[];
-    link: string;
+    projectName: string;
+    techStack: string[];
+    about: string;
+    githubLink: string;
     sourceLink: string;
+    bulletPoints: string[]
 }
 
 export interface IExperienceData {
@@ -45,21 +46,39 @@ export const data: IData = {
     getInTouch: `Let's build something awesome together! 👀`,
     projectData: [
         {
-            name: "Instagram Clone",
-            about: ["Clone of Instagram", "Clone of Instagram", " Lorem ipsum, dolor sit amet consectetur adipisicing elit.", "Clone of Instagram", " Lorem ipsum, dolor sit amet consectetur adipisicing elit."],
-            techStack: "NextJs, React Query, NestJs, Graphql and MongoDB",
-            link: "http://www.google.com",
-            sourceLink: "https://www.google.com"
-
+            projectName: "Instagram Clone",
+            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique et egestas. Quisque id diam vel quam elementum. Duis ut diam quam nulla porttitor massa id neque.",
+            techStack: ["NextJS", "React Query", "NestJs", "Graphql", "MongoDB"],
+            githubLink: "http://www.google.com",
+            sourceLink: "https://www.google.com",
+            bulletPoints: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
         },
 
         {
-            name: "Apartments",
-            about: [" Lorem ipsum, dolor sit amet consectetur adipisicing elit.", "Booking App", "Booking App", "Booking App", " Lorem ipsum, dolor sit amet consectetur adipisicing elit."],
-            techStack: "React Native, React Query, GoLang and PostgreSQL",
-            link: "http://www.google.com",
-            sourceLink: "https://www.google.com"
+            projectName: "Notes App",
+            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique et egestas. Quisque id diam vel quam elementum. Duis ut diam quam nulla porttitor massa id neque.",
+            techStack: ["React Native", "React Query", "Supabase", "PostgreSQL"],
+            githubLink: "http://www.google.com",
+            sourceLink: "https://www.google.com",
+            bulletPoints: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        },
 
+        {
+            projectName: "Virtual Keyboard",
+            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique et egestas. Quisque id diam vel quam elementum. Duis ut diam quam nulla porttitor massa id neque.",
+            techStack: ["HTML", "CSS", "Javascript"],
+            githubLink: "http://www.google.com",
+            sourceLink: "https://www.google.com",
+            bulletPoints: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        },
+
+        {
+            projectName: "Js Project",
+            about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique et egestas. Quisque id diam vel quam elementum. Duis ut diam quam nulla porttitor massa id neque.",
+            techStack: ["HTML", "CSS", "Javascript"],
+            githubLink: "http://www.google.com",
+            sourceLink: "https://www.google.com",
+            bulletPoints: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
         },
 
     ],
