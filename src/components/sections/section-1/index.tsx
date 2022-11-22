@@ -46,9 +46,15 @@ const SectionOne = () => {
       <Text size={30}>{data.lineTwo}</Text>
       <Spacer x={3} />
       <Button
-        shadow
         color="secondary"
         onClick={() => window.open(data.resumeLink)}
+        css={{
+          backgroundColor: "white",
+          borderWidth: "thin",
+          borderColor: "white",
+          color: "black",
+        }}
+        bordered
       >
         Resume
       </Button>
@@ -60,11 +66,25 @@ const SectionOne = () => {
           auto
           icon={<IoLogoGithub style={{ backgroundColor: "transparent" }} />}
           onClick={() => window.open(data.githubLink)}
+          css={{
+            backgroundColor: "black",
+            borderWidth: "thin",
+            borderColor: "white",
+            color: "white",
+          }}
+          bordered
         />
         <Button
           icon={<IoLogoLinkedin />}
           auto
           onClick={() => window.open(data.linkdinLink)}
+          css={{
+            backgroundColor: "black",
+            borderWidth: "thin",
+            borderColor: "white",
+            color: "white",
+          }}
+          bordered
         />
       </div>
     </div>

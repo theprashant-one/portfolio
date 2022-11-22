@@ -25,12 +25,8 @@ const SectionTwo = () => {
               alt="My Profile Image"
               objectFit="contain"
               css={{
-                borderRadius: "50%",
+                borderRadius: 10,
                 backgroundColor: "WhiteSmoke",
-                "@xs": {
-                  width: 200,
-                  height: 200,
-                },
                 width: 300,
                 height: 300,
               }}

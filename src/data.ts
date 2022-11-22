@@ -86,7 +86,7 @@ export const data: IData = {
     experience: [
         {
             companyName: "Stratonik",
-            date: "2022 - present",
+            date: "Jan 2022 - present",
             desc: [" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. ", " Lorem ipsum, dolor sit amet consectetur adipisicing elit.", " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.", " Lorem ipsum, dolor sit amet consectetur adipisicing elit.", " Lorem ipsum, dolor sit amet consectetur adipisicing elit."],
             position: "Software Developer",
             place: "Chennai"
