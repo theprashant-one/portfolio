@@ -59,7 +59,7 @@ export default function CardOne({
           alt="Relaxing app background"
         />
       </Card.Body>
-      <Card.Footer
+      {/* <Card.Footer
         isBlurred
         css={{
           position: "absolute",
@@ -111,7 +111,7 @@ export default function CardOne({
             </Row>
           </Col>
         </Row>
-      </Card.Footer>
+      </Card.Footer> */}
     </Card>
   );
 }

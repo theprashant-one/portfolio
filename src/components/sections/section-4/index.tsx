@@ -44,6 +44,7 @@ const SectionFour = () => {
         closeButton
         scroll
         width="600px"
+        css={{ margin: "$10" }}
       >
         <Modal.Header>
           <Text id="modal-title" size={18}>

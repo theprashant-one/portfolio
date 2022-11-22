@@ -8,24 +8,34 @@ const SectionTwo = () => {
       <Text>01. About Me</Text>
       <Grid.Container gap={2} justify="center" alignItems="center">
         <Grid xs={12} md={6}>
-          <Image
-            // src={require("../../../assets/me.jpeg")}
-            src={
-              "https://media.istockphoto.com/photos/portrait-of-handsome-attractive-positive-curly-haired-indian-or-guy-picture-id1392944438?b=1&k=20&m=1392944438&s=170667a&w=0&h=Jc7QEq4WkReR97ysAgcM6tFU6F6uGmtFjw5zxIZB8c0="
-            }
-            alt="Default Image"
-            objectFit="contain"
-            css={{
-              borderRadius: "50%",
-              backgroundColor: "WhiteSmoke",
-              "@xs": {
+          <div
+            style={{
+              height: 400,
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Image
+              // src={require("../../../assets/me.jpeg")}
+              src={
+                "https://media.istockphoto.com/photos/portrait-of-handsome-attractive-positive-curly-haired-indian-or-guy-picture-id1392944438?b=1&k=20&m=1392944438&s=170667a&w=0&h=Jc7QEq4WkReR97ysAgcM6tFU6F6uGmtFjw5zxIZB8c0="
+              }
+              alt="My Profile Image"
+              objectFit="contain"
+              css={{
+                borderRadius: "50%",
+                backgroundColor: "WhiteSmoke",
+                "@xs": {
+                  width: 200,
+                  height: 200,
+                },
                 width: 300,
                 height: 300,
-              },
-              // width: 400,
-              // height: 400,
-            }}
-          />
+              }}
+            />
+          </div>
         </Grid>
         <Grid xs={12} md={6}>
           <div style={{ display: "flex", flexDirection: "column" }}>
