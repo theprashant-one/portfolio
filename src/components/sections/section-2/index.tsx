@@ -5,7 +5,7 @@ import { data } from "../../../data";
 const SectionTwo = () => {
   return (
     <div id="section-2">
-      <Text>01. About Me</Text>
+      <Text>About Me</Text>
       <Grid.Container gap={2} justify="center" alignItems="center">
         <Grid xs={12} md={6}>
           <div

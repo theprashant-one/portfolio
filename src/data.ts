@@ -19,7 +19,8 @@ export interface IData {
     name: string;
     resumeLink: string;
     githubLink: string;
-    linkdinLink: string;
+    linkedinLink: string;
+    instaLink: string;
     lineOne: string;
     lineTwo: string;
     aboutMe: string[];
@@ -33,7 +34,8 @@ export const data: IData = {
     name: "Prashant Kumar",
     resumeLink: "https://drive.google.com/file/d/1C0FQkjYrEBZ3YPe-707yVtoF1ze3KsHh/view?usp=share_link",
     githubLink: "https://github.com/prashantkumar23",
-    linkdinLink: "https://www.linkedin.com/in/prashantkumar23",
+    linkedinLink: "https://www.linkedin.com/in/prashantkumar23",
+    instaLink: "https://www.instagram.com/prashantjdreww/",
     lineOne: "I build things for the web.",
     lineTwo: "I’m a software engineer based in India, specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Stratonik.",
     aboutMe: [`Hello World! 👋 A Web Developer

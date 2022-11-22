@@ -1,6 +1,6 @@
 //@ts-nocheck
 import { Button, Spacer, Text } from "@nextui-org/react";
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { IoLogoGithub, IoLogoLinkedin, IoLogoInstagram } from "react-icons/io";
 
 import { data } from "../../../data";
 
@@ -77,7 +77,19 @@ const SectionOne = () => {
         <Button
           icon={<IoLogoLinkedin />}
           auto
-          onClick={() => window.open(data.linkdinLink)}
+          onClick={() => window.open(data.linkedinLink)}
+          css={{
+            backgroundColor: "black",
+            borderWidth: "thin",
+            borderColor: "white",
+            color: "white",
+          }}
+          bordered
+        />
+        <Button
+          icon={<IoLogoInstagram />}
+          auto
+          onClick={() => window.open(data.instaLink)}
           css={{
             backgroundColor: "black",
             borderWidth: "thin",

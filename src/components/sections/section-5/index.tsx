@@ -5,7 +5,7 @@ import { data } from "../../../data";
 const SectionFive = () => {
   return (
     <div id="section-5" style={{ marginBottom: "3rem" }}>
-      <Text>04. Contact</Text>
+      <Text>Contact</Text>
       <Text h1 css={{ textAlign: "center" }}>
         Get in Touch
       </Text>

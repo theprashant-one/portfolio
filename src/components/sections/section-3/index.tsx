@@ -13,7 +13,7 @@ const SectionThree = () => {
   const [expanded, setExpanded] = useState(false);
   return (
     <div id="section-3">
-      <Text css={{ marginBottom: "$10" }}>02. Where I’ve Worked</Text>
+      <Text css={{ marginBottom: "$10" }}>Where I’ve Worked</Text>
       <VerticalTimeline lineColor="#2f2e2e">
         {data.experience.map(
           ({ companyName, place, date, desc, position }: IExperienceData) => {

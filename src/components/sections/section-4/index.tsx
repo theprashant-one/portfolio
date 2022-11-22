@@ -22,7 +22,7 @@ const SectionFour = () => {
 
   return (
     <div id="section-4">
-      <Text>03. Some Things I’ve Built</Text>
+      <Text>Some Things I’ve Built</Text>
       <Grid.Container gap={2} justify="flex-start" wrap="wrap">
         {data.projectData.map((item: IProjectData, index) => {
           return (
