@@ -7,7 +7,10 @@ import {
   Button,
   Badge,
   Divider,
+  Col,
+  Row,
 } from "@nextui-org/react";
+import { Dispatch, SetStateAction } from "react";
 
 import { IProjectData } from "../../data";
 
@@ -18,8 +21,102 @@ export default function CardOne({
   githubLink,
   sourceLink,
   bulletPoints,
-}: IProjectData) {
+  setCardIndex,
+  setVisible,
+  cardIndex,
+}: IProjectData & {
+  setCardIndex: Dispatch<SetStateAction<number>>;
+  setVisible: Dispatch<SetStateAction<boolean>>;
+  cardIndex: number;
+}) {
   return (
+    <Card
+      css={{ w: "100%", h: "400px" }}
+      isPressable
+      onClick={() => {
+        setCardIndex(cardIndex);
+        setVisible(true);
+      }}
+    >
+      <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+        <Col>
+          <span style={{ display: "flex", flexWrap: "wrap" }}>
+            {techStack.map((ts) => (
+              <Badge css={{ fontSize: "$xs" }}>{ts}</Badge>
+            ))}
+          </span>
+          <Text h3 color="white">
+            {projectName}
+          </Text>
+        </Col>
+      </Card.Header>
+      <Card.Body css={{ p: 0 }}>
+        <Card.Image
+          src="https://nextui.org/images/card-example-5.jpeg"
+          objectFit="cover"
+          width="100%"
+          height="100%"
+          alt="Relaxing app background"
+        />
+      </Card.Body>
+      <Card.Footer
+        isBlurred
+        css={{
+          position: "absolute",
+          bgBlur: "#0f111466",
+          borderTop: "$borderWeights$light solid $gray800",
+          bottom: 0,
+          zIndex: 1,
+        }}
+      >
+        <Row>
+          <Col>
+            <Row>
+              <Col span={3}>
+                <Card.Image
+                  src="https://nextui.org/images/breathing-app-icon.jpeg"
+                  css={{ bg: "black", br: "50%" }}
+                  height={40}
+                  width={40}
+                  alt="Breathing app icon"
+                />
+              </Col>
+              <Col>
+                <Text color="#d1d1d1" size={12}>
+                  Breathing App
+                </Text>
+                <Text color="#d1d1d1" size={12}>
+                  Get a good night's sleep.
+                </Text>
+              </Col>
+            </Row>
+          </Col>
+          <Col>
+            <Row justify="flex-end">
+              <Button
+                flat
+                auto
+                rounded
+                css={{ color: "#94f9f0", bg: "#94f9f026" }}
+              >
+                <Text
+                  css={{ color: "inherit" }}
+                  size={12}
+                  weight="bold"
+                  transform="uppercase"
+                >
+                  Get App
+                </Text>
+              </Button>
+            </Row>
+          </Col>
+        </Row>
+      </Card.Footer>
+    </Card>
+  );
+}
+
+/*
     <Card
       variant="bordered"
       css={{
@@ -102,49 +199,5 @@ export default function CardOne({
         </Button>
       </Card.Footer>
     </Card>
-  );
-}
-
-/* 
-
- <Card.Header>
-        <Grid.Container css={{ pl: "$6" }}>
-          <Grid xs={12}>
-            <Text h4 css={{ lineHeight: "$xs" }}>
-              {projectName}
-            </Text>
-          </Grid>
-        </Grid.Container>
-      </Card.Header>
-      <Card.Body css={{ py: "$2" }}>
-        <Image
-          src="https://www.itl.cat/pngfile/big/284-2842130_flower-wallpaper-hd-nature.jpg"
-          height={300}
-          width={500}
-          objectFit="cover"
-          css={{ borderRadius: "10px" }}
-        />
-        <Spacer />
-        <Text size="$xs">Built using {techStack}</Text>
-        {about}
-      </Card.Body>
-      <Card.Footer>
-        <Button
-          color="primary"
-          auto
-          onClick={() => window.open(githubLink, "_blank")}
-        >
-          Live App
-        </Button>
-        <Spacer x={1} />
-        <Button
-          ghost
-          color="primary"
-          auto
-          onClick={() => window.open(sourceLink, "_blank")}
-        >
-          GitHub.
-        </Button>
-      </Card.Footer>
 
 */
