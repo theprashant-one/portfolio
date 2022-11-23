@@ -26,7 +26,7 @@ const SectionTwo = () => {
               objectFit="contain"
               css={{
                 borderRadius: 10,
-                backgroundColor: "WhiteSmoke",
+                backgroundColor: "transparent",
                 width: 300,
                 height: 300,
               }}

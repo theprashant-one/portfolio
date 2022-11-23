@@ -24,6 +24,7 @@ export default function CardOne({
   setCardIndex,
   setVisible,
   cardIndex,
+  image,
 }: IProjectData & {
   setCardIndex: Dispatch<SetStateAction<number>>;
   setVisible: Dispatch<SetStateAction<boolean>>;
@@ -40,23 +41,28 @@ export default function CardOne({
     >
       <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
         <Col>
-          <span style={{ display: "flex", flexWrap: "wrap" }}>
+          <Text h3 color="white">
+            {projectName}
+          </Text>
+          <span style={{ display: "flex", flexWrap: "wrap", columnGap: 10 }}>
             {techStack.map((ts) => (
               <Badge css={{ fontSize: "$xs" }}>{ts}</Badge>
             ))}
           </span>
-          <Text h3 color="white">
-            {projectName}
-          </Text>
         </Col>
       </Card.Header>
       <Card.Body css={{ p: 0 }}>
         <Card.Image
-          src="https://nextui.org/images/card-example-5.jpeg"
-          objectFit="cover"
+          src={
+            image
+              ? image
+              : "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg"
+          }
+          objectFit="contain"
           width="100%"
           height="100%"
-          alt="Relaxing app background"
+          alt={projectName}
+          style={{ backgroundColor: "#2f2e2e" }}
         />
       </Card.Body>
       {/* <Card.Footer
