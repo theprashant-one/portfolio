@@ -31,7 +31,7 @@ export interface IData {
 }
 
 export const data: IData = {
-    name: "Prashant Kumar",
+    name: "Prashant Kumar Jr.",
     resumeLink: "https://drive.google.com/file/d/1C0FQkjYrEBZ3YPe-707yVtoF1ze3KsHh/view?usp=share_link",
     githubLink: "https://github.com/prashantkumar23",
     linkedinLink: "https://www.linkedin.com/in/prashantkumar23",
