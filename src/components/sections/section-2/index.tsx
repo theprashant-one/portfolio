@@ -36,7 +36,11 @@ const SectionTwo = () => {
         <Grid xs={12} md={6}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             {data.aboutMe.map((ab) => {
-              return <Text h4>{ab}</Text>;
+              return (
+                <Text h4 css={{ color: "WhiteSmoke" }}>
+                  {ab}
+                </Text>
+              );
             })}
           </div>
         </Grid>
