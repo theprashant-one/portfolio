@@ -1,4 +1,4 @@
-import { Text, Grid, Image } from "@nextui-org/react";
+import { Text, Grid, Image, Badge } from "@nextui-org/react";
 
 import { data } from "../../../data";
 
@@ -34,14 +34,45 @@ const SectionTwo = () => {
           </div>
         </Grid>
         <Grid xs={12} md={6}>
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            {data.aboutMe.map((ab) => {
-              return (
-                <Text h4 css={{ color: "WhiteSmoke" }}>
-                  {ab}
-                </Text>
-              );
-            })}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              rowGap: 30,
+              columnGap: 10,
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                columnGap: 10,
+                rowGap: 10,
+                flexWrap: "wrap",
+              }}
+            >
+              {data.skillKnown.map((ele) => (
+                <span style={{ display: "flex" }}>
+                  <Image src={ele.image} width={20} height={20} />
+                  <Badge
+                    css={{
+                      borderColor: "transparent",
+                      backgroundColor: "transparent",
+                    }}
+                  >
+                    {ele.name}
+                  </Badge>
+                </span>
+              ))}
+            </div>
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              {data.aboutMe.map((ab) => {
+                return (
+                  <Text h4 css={{ color: "WhiteSmoke" }}>
+                    {ab}
+                  </Text>
+                );
+              })}
+            </div>
           </div>
         </Grid>
       </Grid.Container>

@@ -29,6 +29,7 @@ export interface IData {
     projectData: IProjectData[];
     contactemail: string;
     experience: IExperienceData[];
+    skillKnown: { name: string, image: string }[]
 }
 
 export const data: IData = {
@@ -38,9 +39,9 @@ export const data: IData = {
     githubLink: "https://github.com/prashantkumar23",
     linkedinLink: "https://www.linkedin.com/in/prashantkumar23",
     instaLink: "https://www.instagram.com/prashantjdreww/",
-    lineOne: "I build stuffs for the web.",
+    lineOne: "I build stuffs for the Internet",
     lineTwo:
-        "I’m a software engineer based in India, specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, human-centered payroll product for my client at Stratonik.",
+        "I’m a software developer based in India, specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, human-centered payroll product for my client at Stratonik.",
     aboutMe: [
         `Hello World! 👋 A Web Developer
     based out in India. With love of working on Javascript stack.`,
@@ -141,4 +142,42 @@ export const data: IData = {
             place: "Chennai",
         },
     ],
+    skillKnown: [
+        {
+            name: "HTML",
+            image: require("./assets/skillSvg/html5.png")
+        },
+        {
+            name: "CSS",
+            image: require("./assets/skillSvg/css3.png")
+        },
+        {
+            name: "JavaScript",
+            image: require("./assets/skillSvg/javascript.png")
+        },
+        {
+            name: "React",
+            image: require("./assets/skillSvg/reactjs.png")
+        },
+        {
+            name: "Typescript",
+            image: require("./assets/skillSvg/typescript.png")
+        },
+        {
+            name: "NodeJs",
+            image: require("./assets/skillSvg/nodejs.png")
+        },
+        {
+            name: "MongoDB",
+            image: require("./assets/skillSvg/mongodb.png")
+        },
+        {
+            name: "PostgreSQL",
+            image: require("./assets/skillSvg/sql.png")
+        },
+        {
+            name: "GraphQL",
+            image: require("./assets/skillSvg/graphql.png")
+        },
+    ]
 };
