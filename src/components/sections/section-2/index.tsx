@@ -18,10 +18,10 @@ const SectionTwo = () => {
             }}
           >
             <Image
-              // src={require("../../../assets/me.jpeg")}
-              src={
-                "https://media.istockphoto.com/photos/portrait-of-handsome-attractive-positive-curly-haired-indian-or-guy-picture-id1392944438?b=1&k=20&m=1392944438&s=170667a&w=0&h=Jc7QEq4WkReR97ysAgcM6tFU6F6uGmtFjw5zxIZB8c0="
-              }
+              src={require("../../../assets/me.jpeg")}
+              // src={
+              //   "https://media.istockphoto.com/photos/portrait-of-handsome-attractive-positive-curly-haired-indian-or-guy-picture-id1392944438?b=1&k=20&m=1392944438&s=170667a&w=0&h=Jc7QEq4WkReR97ysAgcM6tFU6F6uGmtFjw5zxIZB8c0="
+              // }
               alt="My Profile Image"
               objectFit="contain"
               css={{

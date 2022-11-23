@@ -36,7 +36,7 @@ export const data: IData = {
     githubLink: "https://github.com/prashantkumar23",
     linkedinLink: "https://www.linkedin.com/in/prashantkumar23",
     instaLink: "https://www.instagram.com/prashantjdreww/",
-    lineOne: "I build things for the web.",
+    lineOne: "I build stuffs for the web.",
     lineTwo: "I’m a software engineer based in India, specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Stratonik.",
     aboutMe: [`Hello World! 👋 A Web Developer
     based out in India. With love of working on Javascript stack.`,
