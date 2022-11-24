@@ -63,6 +63,18 @@ const SectionOne = () => {
         style={{ display: "flex", justifyContent: "flex-start", columnGap: 10 }}
       >
         <Button
+          icon={<IoLogoInstagram />}
+          auto
+          onClick={() => window.open(data.instaLink)}
+          css={{
+            backgroundColor: "black",
+            borderWidth: "thin",
+            borderColor: "white",
+            color: "white",
+          }}
+          bordered
+        />
+        <Button
           auto
           icon={<IoLogoGithub style={{ backgroundColor: "transparent" }} />}
           onClick={() => window.open(data.githubLink)}
@@ -78,18 +90,6 @@ const SectionOne = () => {
           icon={<IoLogoLinkedin />}
           auto
           onClick={() => window.open(data.linkedinLink)}
-          css={{
-            backgroundColor: "black",
-            borderWidth: "thin",
-            borderColor: "white",
-            color: "white",
-          }}
-          bordered
-        />
-        <Button
-          icon={<IoLogoInstagram />}
-          auto
-          onClick={() => window.open(data.instaLink)}
           css={{
             backgroundColor: "black",
             borderWidth: "thin",

@@ -1,15 +1,4 @@
-import {
-  Card,
-  Grid,
-  Text,
-  Image,
-  Spacer,
-  Button,
-  Badge,
-  Divider,
-  Col,
-  Row,
-} from "@nextui-org/react";
+import { Card, Text, Badge, Col } from "@nextui-org/react";
 import { Dispatch, SetStateAction } from "react";
 
 import { IProjectData } from "../../data";
@@ -39,7 +28,9 @@ export default function CardOne({
         setVisible(true);
       }}
     >
-      <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+      <Card.Header
+      // css={{ position: "absolute", zIndex: 1, top: 5 }}
+      >
         <Col>
           <Text
             h3
@@ -80,7 +71,7 @@ export default function CardOne({
           alt={projectName}
           css={{
             backgroundColor: "#2f2e2e",
-            objectFit: "contain",
+            objectFit: "cover",
             opacity: 0.8,
             // "@xs": {
             //   objectFit: "contain",

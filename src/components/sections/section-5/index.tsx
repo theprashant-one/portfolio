@@ -1,11 +1,11 @@
-import { Button, Text } from "@nextui-org/react";
+import { Button, Divider, Text } from "@nextui-org/react";
 
 import { data } from "../../../data";
 
 const SectionFive = () => {
   return (
     <div id="section-5" style={{ marginBottom: "3rem" }}>
-      <Text>Contact</Text>
+      <Divider css={{ marginBottom: "$10" }} />
       <Text h1 css={{ textAlign: "center" }}>
         Get in Touch
       </Text>

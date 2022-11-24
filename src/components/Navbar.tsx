@@ -1,5 +1,4 @@
 import { Navbar, Link, Text } from "@nextui-org/react";
-import { useState } from "react";
 
 export const NavbarComponent = () => {
   const collapseItems = ["About", "Experience", "Work", "Contact"];
