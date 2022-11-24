@@ -35,7 +35,7 @@ export interface IData {
 export const data: IData = {
     name: "Prashant Kumar",
     resumeLink:
-        "https://drive.google.com/file/d/1C0FQkjYrEBZ3YPe-707yVtoF1ze3KsHh/view?usp=share_link",
+        "https://drive.google.com/file/d/12n42Vy8vQo78liE3xqI46oGQwEeZ7MnJ/view?usp=share_link",
     githubLink: "https://github.com/prashantkumar23",
     linkedinLink: "https://www.linkedin.com/in/prashantkumar23",
     instaLink: "https://www.instagram.com/prashantjdreww/",
@@ -58,7 +58,7 @@ export const data: IData = {
         {
             projectName: "Instagram Clone",
             about: "Simple, Aesthetic and Usable Insta Clone",
-            techStack: ["NextJS", "React Query", "NestJs", "Graphql", "MongoDB"],
+            techStack: ["AWS S3 and Cognito", "NextJS", "React Query", "NestJs", "Graphql", "MongoDB"],
             githubLink: "http://www.google.com",
             sourceLink: "https://www.google.com",
             bulletPoints: [
@@ -113,15 +113,16 @@ export const data: IData = {
         {
             projectName: "Kanban Board with JavaScript (No Frameworks)",
             about:
-                "Minimal Kanban Board to organsie your day-to-day tasks",
+                "Minimal Kanban Board to organise your day-to-day tasks",
             techStack: ["HTML", "CSS", "Vanilla Javascript"],
             githubLink: "http://www.google.com",
             sourceLink: "https://www.google.com",
             bulletPoints: [
-                "Organsie your tasks in three way - Not started, In Progress and Completed",
+                "Organise your tasks in three way - Not started, In Progress and Completed",
                 "You can move your tasks in those three columns depending on the completion of task",
                 "Add Task in any three columns",
-                "Update your existing task"
+                "Update your existing task",
+                "Persistent Storage using local storage"
             ],
             image: require("./assets/projectimages/project_kanbanboard.png")
         },
