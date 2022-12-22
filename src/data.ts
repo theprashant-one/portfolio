@@ -56,11 +56,11 @@ export const data: IData = {
     getInTouch: `Let's build something awesome together! 👀`,
     projectData: [
         {
-            projectName: "Instagram Clone",
+            projectName: "Pintagram - instagram Clone",
             about: "Simple, Aesthetic and Usable Insta Clone",
-            techStack: ["AWS S3 and Cognito", "NextJS", "React Query", "NestJs", "Graphql", "MongoDB"],
-            githubLink: "http://www.google.com",
-            sourceLink: "https://www.google.com",
+            techStack: ["AWS S3, Cognito, Cloudfront", "NextJS", "React Query", "NestJs", "Graphql", "MongoDB"],
+            githubLink: "https://github.com/prashantkumar23/insta-backend",
+            sourceLink: "https://insta-frontend-production.up.railway.app/",
             bulletPoints: [
                 "You can Create Post",
                 "You can view all the posts posted by other users",
@@ -69,23 +69,21 @@ export const data: IData = {
                 "View Your profile",
                 "You can view other people profile too",
                 "Have a thought on someone post? You can comment it too",
-                "Also you can delete your posted comment",
                 "You can scroll through endless comment jargon on any post",
                 "Login and Register",
                 "Forgot Password? Insta clone got you!",
                 "Reset your password",
-                "Infinite Scroll",
                 "Search Users on this platform"
             ],
             image: ""
         },
         {
-            projectName: "Notes App",
+            projectName: "ENote",
             about:
                 "Minimalistic and Simple note taking app",
             techStack: ["React Native", "React Query", "Supabase", "PostgreSQL"],
             githubLink: "http://www.google.com",
-            sourceLink: "https://www.google.com",
+            sourceLink: "https://play.google.com/store/apps/details?id=com.undertone.enote&pli=1",
             bulletPoints: [
                 "Add Note",
                 "Update Note",
@@ -96,35 +94,35 @@ export const data: IData = {
             image: ""
         },
         {
-            projectName: "Nodejs Project",
+            projectName: "Paid Sass App",
             about:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique et egestas. Quisque id diam vel quam elementum. Duis ut diam quam nulla porttitor massa id neque.",
-            techStack: ["Nodejs"],
-            githubLink: "http://www.google.com",
-            sourceLink: "https://www.google.com",
+                "Subscribed premium content with stripe. Become a pro and basic user",
+            techStack: ["NextJS", "Supabase", "Stripe", "Webhooks"],
+            githubLink: "https://github.com/prashantkumar23/paymentapp",
+            sourceLink: "https://sass-app-supabase.vercel.app/",
             bulletPoints: [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             ],
-            image: ""
+            image: require("./assets/projectimages/3.png")
         },
         {
-            projectName: "Kanban Board with JavaScript (No Frameworks)",
+            projectName: "The Cozy Kitchen",
             about:
-                "Minimal Kanban Board to organise your day-to-day tasks",
-            techStack: ["HTML", "CSS", "Vanilla Javascript"],
-            githubLink: "http://www.google.com",
-            sourceLink: "https://www.google.com",
+                "Responsive Restaurant Web App",
+            techStack: ["HTML", "CSS", "Javascript"],
+            githubLink: "https://github.com/prashantkumar23/responsive-web-app",
+            sourceLink: "https://prashantkumar23.github.io/responsive-web-app/",
             bulletPoints: [
-                "Organise your tasks in three way - Not started, In Progress and Completed",
-                "You can move your tasks in those three columns depending on the completion of task",
-                "Add Task in any three columns",
-                "Update your existing task",
-                "Persistent Storage using local storage"
+                " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
+                " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
             ],
-            image: require("./assets/projectimages/project_kanbanboard.png")
+            image: require("./assets/projectimages/4.png")
         },
     ],
     contactemail: "mailto:prashantkumar23.eng@gmail.com",
