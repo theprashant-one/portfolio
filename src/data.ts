@@ -90,7 +90,7 @@ export const data: IData = {
                 "Reading Mode - so you can read your existing notes",
                 "Authentication - Login, Register, Forget Password, Reset Password"
             ],
-            image: ""
+            image: require("./assets/projectimages/2.png")
         },
         {
             projectName: "Paid Sass App",

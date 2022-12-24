@@ -67,7 +67,7 @@ const SectionTwo = () => {
             <div style={{ display: "flex", flexDirection: "column" }}>
               {data.aboutMe.map((ab) => {
                 return (
-                  <Text h4 css={{ color: "WhiteSmoke" }}>
+                  <Text h4 css={{ opacity: 0.8 }}>
                     {ab}
                   </Text>
                 );
