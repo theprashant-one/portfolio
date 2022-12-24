@@ -56,15 +56,14 @@ export const data: IData = {
     getInTouch: `Let's build something awesome together! 👀`,
     projectData: [
         {
-            projectName: "Pintagram - instagram Clone",
-            about: "Simple, Aesthetic and Usable Insta Clone",
+            projectName: "Pintagram - instagram clone",
+            about: "Simple and Aesthetic Insta Clone",
             techStack: ["AWS S3, Cognito, Cloudfront", "NextJS", "React Query", "NestJs", "Graphql", "MongoDB"],
             githubLink: "https://github.com/prashantkumar23/insta-backend",
-            sourceLink: "https://insta-frontend-production.up.railway.app/",
+            sourceLink: "https://pintagram-frontend-production.up.railway.app",
             bulletPoints: [
                 "You can Create Post",
                 "You can view all the posts posted by other users",
-                "Not like your posted post? You can delete it too",
                 "Follow and Unfollow people here",
                 "View Your profile",
                 "You can view other people profile too",
@@ -75,7 +74,7 @@ export const data: IData = {
                 "Reset your password",
                 "Search Users on this platform"
             ],
-            image: ""
+            image: require("./assets/projectimages/1.png")
         },
         {
             projectName: "ENote",

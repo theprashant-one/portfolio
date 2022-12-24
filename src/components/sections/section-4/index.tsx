@@ -71,7 +71,7 @@ const SectionFour = () => {
           <Button
             color="primary"
             auto
-            onClick={() => window.open(modalData!.githubLink, "_blank")}
+            onClick={() => window.open(modalData!.sourceLink, "_blank")}
           >
             Live App
           </Button>
@@ -80,7 +80,7 @@ const SectionFour = () => {
             ghost
             color="primary"
             auto
-            onClick={() => window.open(modalData!.sourceLink, "_blank")}
+            onClick={() => window.open(modalData!.githubLink, "_blank")}
           >
             GitHub
           </Button>
