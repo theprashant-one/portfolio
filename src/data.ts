@@ -58,7 +58,7 @@ export const data: IData = {
         {
             projectName: "Pintagram - instagram clone",
             about: "Simple and Aesthetic Insta Clone",
-            techStack: ["AWS S3, Cognito, Cloudfront", "NextJS", "React Query", "NestJs", "Graphql", "MongoDB"],
+            techStack: ["Typescript", "AWS S3, Cognito, Cloudfront", "NextJS", "React Query", "NestJs", "Graphql", "MongoDB"],
             githubLink: "https://github.com/prashantkumar23/insta-backend",
             sourceLink: "https://pintagram-frontend-production.up.railway.app",
             bulletPoints: [
@@ -80,7 +80,7 @@ export const data: IData = {
             projectName: "ENote",
             about:
                 "Minimalistic and Simple note taking app",
-            techStack: ["React Native", "React Query", "Supabase", "PostgreSQL"],
+            techStack: ["Typescript", "React Native", "React Query", "Supabase", "PostgreSQL"],
             githubLink: "http://www.google.com",
             sourceLink: "https://play.google.com/store/apps/details?id=com.undertone.enote&pli=1",
             bulletPoints: [
@@ -96,7 +96,7 @@ export const data: IData = {
             projectName: "Paid Sass App",
             about:
                 "Subscribed premium content with stripe. Become a pro and basic user",
-            techStack: ["NextJS", "Supabase", "Stripe", "Webhooks"],
+            techStack: ["Typescript", "NextJS", "Supabase", "Stripe", "Webhooks"],
             githubLink: "https://github.com/prashantkumar23/paymentapp",
             sourceLink: "https://sass-app-supabase.vercel.app/",
             bulletPoints: [
@@ -128,7 +128,7 @@ export const data: IData = {
     experience: [
         {
             companyName: "Stratonik",
-            date: "Jan 2022 - present",
+            date: "Jan 2022 - March 2023",
             desc: [
                 " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
                 " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
