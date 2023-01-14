@@ -43,14 +43,10 @@ export const data: IData = {
     lineTwo:
         "I’m a software developer based in India, specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, human-centered payroll product for my client at Stratonik.",
     aboutMe: [
-        `Hello World! 👋 A Web Developer
-    based out in India. With love of working on Javascript stack.`,
+        `Hello World! 👋 a software developer
+    based out in India. With love of working and making usable software.`,
 
-        `Technology leads, society follows. The move towards increasing
-    inclusivity and diversity in the industry through representation
-    is of importance to me. I'm excited to make the leap and continue refining my skills with the right team`,
-        `Also finding unique solutions to complex problems and I’m doing it all
-    while making the worst puns you've never heard before. 🤪`,
+        `I'm really into using technology to make a positive impact and bring more diversity and inclusivity to the industry. I'm excited to learn and grow with a great team. And who knows, maybe I'll finally figure out how to make a computer laugh 🤪`,
         // "Aside from my job, I like to run,  play sometimes badminton or go to meetups for keep in sane",
     ],
     getInTouch: `Let's build something awesome together! 👀`,
@@ -77,7 +73,7 @@ export const data: IData = {
             image: require("./assets/projectimages/1.png")
         },
         {
-            projectName: "ENote",
+            projectName: "ENote - Note taking app",
             about:
                 "Minimalistic and Simple note taking app",
             techStack: ["Typescript", "React Native", "React Query", "Supabase", "PostgreSQL"],
@@ -100,10 +96,11 @@ export const data: IData = {
             githubLink: "https://github.com/prashantkumar23/paymentapp",
             sourceLink: "https://sass-app-supabase.vercel.app/",
             bulletPoints: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                "Ability to authenticate using Google OAuth",
+                "Subscribe to Base plan and Pro plan",
+                "Ability to switch base plan to pro plan and vice versa as needed",
+                "Premium user can see the premium content associated with article",
+                "Cancel subscription that will end of last month of the plan"
             ],
             image: require("./assets/projectimages/3.png")
         },
@@ -115,11 +112,11 @@ export const data: IData = {
             githubLink: "https://github.com/prashantkumar23/responsive-web-app",
             sourceLink: "https://prashantkumar23.github.io/responsive-web-app/",
             bulletPoints: [
-                " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
-                " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-                " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+                " Responsive Web App",
+                " With Cool animations",
+                " Include multiple pages (Home, Menu, About, Contact)",
+                " Responsive form element",
+                " Adapatable in multiple screens",
             ],
             image: require("./assets/projectimages/4.png")
         },
@@ -137,7 +134,7 @@ export const data: IData = {
                 " Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
             ],
             position: "Software Developer",
-            place: "Chennai",
+            place: "Chennai, India",
         },
     ],
     skillKnown: [
